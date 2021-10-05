@@ -13,11 +13,11 @@ class MyApp extends StatelessWidget {
     ]);
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Detect Room Color',
+      title: 'Garbage Detection Version 1.1',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.green,
       ),
-      home: DetectScreen(title: 'Detect Room Color'),
+      home: DetectScreen(title: 'Garbage Detection Version 1.1'),
     );
   }
 }
